@@ -100,7 +100,7 @@ def gerar_relatorio_pdf(base_name, data_ini, data_fim):
 
     # Configurações para permitir downloads
     prefs = {
-        "download.default_directory": "/Users/marcosgallo/Documents/Boot/downloads",
+        "download.default_directory": "/usr/local/bin/chromedriver",
         "download.prompt_for_download": False,
         "download.directory_upgrade": True,
         "plugins.always_open_pdf_externally": True,  # Forçar download de PDFs
